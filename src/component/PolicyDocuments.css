@@ -1,0 +1,50 @@
+
+
+.sense1, .sense2 {
+  width: 100%; /* Ensure each section takes full width */
+}
+
+.sense { 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 100px;
+}
+
+.sense h2 {
+  text-align: center;
+  color: #000000;
+}
+
+/* Customize accordion header background color */
+.accordion-button {
+  background-color: rgb(242, 233, 233); /* Default background color of accordion header */
+  color: rgb(14, 2, 2); /* Default text color inside accordion header */
+  transition: background-color 0.3s ease; /* Add transition effect for smoother color change */
+}
+
+/* Change background color of accordion header when expanded */
+.accordion-button:not(.collapsed) {
+  background-color: rgb(231, 219, 219);
+  color: white;
+}
+
+/* Hover effect for accordion header */
+.accordion-button:hover {
+  background-color: #f0efef; /* Darker shade of black for hover */
+}
+
+/* Change background color of accordion body */
+.accordion-collapse {
+  background-color: white;
+  color: black; /* Change text color inside accordion body */
+}
+
+/* Optional: Adjust padding and other styles for accordion body */
+.accordion-body {
+  padding: 15px; /* Adjust padding inside the accordion body */
+}
+.accordian-head{
+  background-color: black;
+  color: white;
+}

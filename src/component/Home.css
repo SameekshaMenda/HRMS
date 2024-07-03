@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.text-content {
+    max-width: 60%;
+    align-text:right;
+}
+img {
+    max-width: 4%;
+    height: auto;
+}
